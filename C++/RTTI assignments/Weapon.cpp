@@ -1,3 +1,20 @@
+/*
+ *  **********************************************************************
+ *  * Create a base class "Weapon". Declare a pure virtual function 
+ *  * "void attack()" in it.
+ *  * Define the following sub classes for this class:
+ *  * a) Gun
+ *  * b) Sword
+ *  * c) Rifle
+ *  * The "Rifle" class will have one more function "Chambering()".
+ *  * Create an array of pointers to Weapon having 3 elements.
+ *  * In this array, store the instances of child classes.
+ *  * Traverse the array, find out where exactly "Rifle" is stored using 
+ *  * RTTI (dynamic_cast), and invoke the "Chambering()" function along 
+ *  * with the "attack()" function.
+ *  **********************************************************************
+ */
+
 #include <iostream>
 
 using namespace std;
