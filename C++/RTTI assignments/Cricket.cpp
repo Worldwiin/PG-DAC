@@ -1,3 +1,19 @@
+/*
+ *  **********************************************************************
+ *  * Create a base class "Cricket". Declare a pure virtual function 
+ *  * "void play()" in it.
+ *  * Define the following sub classes for this class:
+ *  * a) FiftyOver
+ *  * b) Test
+ *  * c) TwentyOver
+ *  * The "Test" class will have one more function "daywise_summary()".
+ *  * Create an array of pointers to "Cricket" class having 3 elements. 
+ *  * Store child class objects into this array.
+ *  * Now, using RTTI, find out where "Test" is, and call "daywise_summary()" 
+ *  * along with the "play()" function.
+ *  **********************************************************************
+ */
+
 #include <iostream>
 
 using namespace std;
