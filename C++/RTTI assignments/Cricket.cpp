@@ -1,20 +1,3 @@
-/*
- *  **********************************************************************
- *  * Create a base class "Cricket". Declare a pure virtual function 
- *  * "void play()" in it.
- *  * Define the following sub classes for this class:
- *  * a) FiftyOver
- *  * b) Test
- *  * c) TwentyOver
- *  * The "Test" class will have one more function "daywise_summary()".
- *  * Create a global function "void doit()" which accepts a reference 
- *  * of type Cricket so that it can invoke the "play()" function 
- *  * polymorphically. Inside this function, find out where exactly 
- *  * "Test" is stored using RTTI (dynamic_cast), and invoke the 
- *  * "daywise_summary()" function along with the "play()" function.
- *  **********************************************************************
- */
-
 #include <iostream>
 
 using namespace std;
