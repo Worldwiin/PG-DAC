@@ -39,7 +39,7 @@ public:
 };
 
 ostream& operator<<(ostream& o, const Person& ref) {
-    o << ref.name << "\t" << ref.age << endl;
+    o << "Name: " << ref.name << "\t" << "Age: " << ref.age << endl;
     return o;
 }
 
