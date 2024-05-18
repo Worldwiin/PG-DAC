@@ -46,5 +46,9 @@ ostream& operator<<(ostream& o, const Person& ref) {
 int main() {
     Person p1("Eren Yeager", 22);
     cout << p1 << endl;// Internal representation: operator<<(cout, p1);
+    Person p2;
+    p2.setName("Roronoa Zoro");
+    p2.setAge(23);
+    cout << p2 << endl;
     return 0;
 }
