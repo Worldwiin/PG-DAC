@@ -13,7 +13,7 @@ public class Bubble {
 					a[j] = a[j + 1];
 					a[j + 1] = t;
 				}
-			} // j if(flag)//flag==true-----if true means no swap means sorted break;
+			}
 		}
 	}
 
