@@ -1,3 +1,4 @@
+//code for Quick sort in java
 package Sorting;
 
 public class Quick {
