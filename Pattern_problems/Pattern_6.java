@@ -15,3 +15,9 @@ public class Pattern_6 {
         }
     }
 }
+
+1
+25
+368
+47910
+
