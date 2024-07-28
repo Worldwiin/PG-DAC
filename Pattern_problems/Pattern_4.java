@@ -12,3 +12,9 @@ public class Pattern_4 {
         }
     }
 }
+
+ABCDEBCDECDEDEE
+ABCDEBCDECDEDE
+ABCDEBCDECDE
+ABCDEBCDE
+ABCDE
