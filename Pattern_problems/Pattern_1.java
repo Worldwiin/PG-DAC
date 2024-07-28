@@ -18,3 +18,8 @@ public class Pattern_1 {
 
     }
 }
+    1
+   21
+  321
+ 4321
+54321
