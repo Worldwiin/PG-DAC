@@ -5,14 +5,18 @@ public class Binary {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
-        int t =0;
-        while (t != 1)
-        {
-            t = number % 2;
+
+        int[] arr = new int[32];
+        int index = 0;
+
+        while (number > 0) {
+            arr[index++] = number % 2;
             number = number / 2;
-            System.out.print(t);
         }
 
+        System.out.print("Binary representation: ");
+        for (int i = index - 1; i >= 0; i--) {
+            System.out.print(arr[i]);
+        }
     }
 }
-
