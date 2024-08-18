@@ -1,4 +1,4 @@
-public class Pattern_1 {
+public class Diamond_start_3 {
     public static void main(String[] args) {
         for (int i = 1; i <= 3; i++) {
 
