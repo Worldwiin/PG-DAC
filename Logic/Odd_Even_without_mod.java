@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Odd_Even {
+public class Odd_Even_without_mod {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
