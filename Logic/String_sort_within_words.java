@@ -1,4 +1,4 @@
-public class String_words_within_sort {
+public class String_sort_within_words {
     public static void main(String[] args) {
         String s1 = "HELLO WORLD";
         String[] words = s1.split(" ");
