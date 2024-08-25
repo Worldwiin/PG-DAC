@@ -9,7 +9,7 @@ public class Prime_between_numbers {
         System.out.println("Enter the end number: ");
         int end = sc.nextInt();
         ArrayList<Integer> primes = new ArrayList<>();
-        for (int i = start + 1; i <= end; i++) {
+        for (int i = start + 1; i < end; i++) {
             int c = 0;
             for (int j = 1; j <= i; j++) {
                 if (i % j == 0) {
