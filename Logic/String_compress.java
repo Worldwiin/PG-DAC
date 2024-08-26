@@ -28,10 +28,10 @@ public class String_compress {
     }
 
     public static void main(String[] args) {
-        String input = "aabcccccaaa";
+        String input = "aaabbbaabababaccc";
         String compressed = compressString(input);
         System.out.println("Compressed String: " + compressed);
     }
 }
-//Input: aabcccccaaa
-//Output: a5b1c5
+//Input: aaabbbaabababaccc
+//Output: a8b6c3
