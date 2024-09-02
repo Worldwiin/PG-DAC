@@ -13,3 +13,7 @@ public class Reverse_array {
         System.out.println("Reversed Array: " + Arrays.toString(arr));
     }
 }
+/*
+Original Array: [1, 2, 3, 4, 5, 6]
+Reversed Array: [6, 5, 4, 3, 2, 1]
+*/
