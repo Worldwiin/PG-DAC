@@ -44,4 +44,3 @@ public class Array_half_sum_replace {
         return false;
     }
 }
-//here the array will be split and 3 will replace index 2 element to get equal halves ie 7-7
