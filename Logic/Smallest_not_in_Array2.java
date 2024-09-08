@@ -29,3 +29,6 @@ public class Smallest_not_in_Array2 {
         return smallest;
     }
 }
+/*
+The smallest element in Array1 that is not present in Array2 is: 4
+ */
