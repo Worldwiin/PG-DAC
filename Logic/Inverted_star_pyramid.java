@@ -1,7 +1,7 @@
-public class Star_pyramid {
+public class Inverted_star_pyramid {
     public static void main(String[] args) {
         int n = 4;
-        for (int i = 1; i <= n; i++) {
+        for (int i = n; i >= 1; i--) {
             for (int s = 1; s <= n - i; s++) {
                 System.out.print(" ");
             }
