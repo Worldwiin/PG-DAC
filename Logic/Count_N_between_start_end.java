@@ -13,6 +13,14 @@ public class Count_N_between_start_end {
                 count++;
             }
         }
+//        for (int i = 1; i <= 100; i++) {
+//            String num = Integer.toString(i);
+//            for (char c : num.toCharArray()) {
+//                if (c == '9') {
+//                    count++;
+//                }
+//            }
+//        }
 
         System.out.println("The digit 9 appears " + count + " times between 1 and 100.");
     }
