@@ -14,7 +14,7 @@ public class Split_CamelCase {
 }
 
 /*
-O/p:
+o/p:
 I
 Love
 Pulp
