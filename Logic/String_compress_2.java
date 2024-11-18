@@ -2,6 +2,7 @@ public class String_compress_2
 {
     public static void main(String [] args)
     {
+        //String data = "aaabbbaabababaCCC".toLowerCase();
         String data = "aaabbbaabababaccc";
         int[] count = new int[26];
 
@@ -16,6 +17,6 @@ public class String_compress_2
         }
     }
 }
-
+//can convert only lower cases
 //Input: aaabbbaabababaccc
 //Output: a8b6c3
