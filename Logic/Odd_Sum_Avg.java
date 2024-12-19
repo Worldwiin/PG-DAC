@@ -6,11 +6,11 @@ public class Odd_Sum_Avg {
         int[] arr = new int[5];
         int sum = 0;
         int count = 0;
-        System.out.println("Enter 5 array:");
+        System.out.println("Enter 5 numbers in the array:");
         for (int i = 0; i < 5; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println("Odd array:");
+        System.out.println("Odd numbers in the array:");
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
                 System.out.println(arr[i]);
