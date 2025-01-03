@@ -5,7 +5,6 @@ public class String_rightshift {
         int i;
         for (i = arr.length - 1; i >0 ; i--) {
             arr[i] = arr[i - 1];
-
         }
         arr[i] = temp;
 
@@ -14,3 +13,6 @@ public class String_rightshift {
         }
     }
 }
+/*
+output:19 23 43 12 12
+ */
